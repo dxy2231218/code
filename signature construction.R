@@ -130,7 +130,7 @@ model[[14]]$AUC[2]
 model[[6]]
 ggsurvplot(model[[9]])
 model2<-model
-save(model,file = '模型/model.Rdata')
+save(model,file = 'model/model.Rdata')
 
 
 write.table(model[[1]],file="modeldata.train.txt",sep="\t",quote=F,row.names=F)
